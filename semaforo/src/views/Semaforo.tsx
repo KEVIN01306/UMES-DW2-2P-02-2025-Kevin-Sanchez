@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Button from "../components/button";
+import Button from "../components/Button";
 import Contador from "../components/Contador";
 import { Luz } from "../components/Luz";
 
@@ -64,8 +64,8 @@ const Semaforo = () => {
                 <div className="w-48 flex flex-col bg-gray-400 items-center gap-1 p-4 md:flex-column md:gap-8 border-2 rounded-2xl border-b-black">
                     <Contador contador={contador} />
                     <Luz color={"bg-red-600"} activo={luces.luzRoja} />
-                    <Luz color={"bg-yellow-300"} activo={luces.luzAmarilla} />
-                    <Luz color={"bg-green-600"} activo={luces.luzVerde} />
+                    <Luz color={"bg-yellow-300"} activo={luces.luzVerde} />
+                    <Luz color={"bg-green-600"} activo={luces.luzAmarilla} />
                 </div>
                 <div className="flex flex-col items-center gap-6 p-7 md:flex-column md:gap-8 rounded-2xl">
                     <Button 
